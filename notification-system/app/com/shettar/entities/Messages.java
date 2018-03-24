@@ -89,4 +89,10 @@ public class Messages {
 		this.allMessages = allMessages;
 	}
 
+	/**
+	 * 
+	 */
+	public Messages() {
+		// TODO Auto-generated constructor stub
+	}
 }

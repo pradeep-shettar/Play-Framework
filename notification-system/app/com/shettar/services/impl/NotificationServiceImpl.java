@@ -38,8 +38,8 @@ public class NotificationServiceImpl implements NotificationService {
 	@Override
 	public Acknowledgement sendMessage(Request request) throws InvalidDataException {
 		Messages messages = getMessagesIfValidRequest(request);
-		processMessages(messages);
-		return null;
+		Acknowledgement acknowledgement = processMessages(messages);
+		return acknowledgement;
 	}
 
 	/**

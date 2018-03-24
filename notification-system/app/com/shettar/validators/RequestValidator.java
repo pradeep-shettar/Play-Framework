@@ -22,7 +22,7 @@ public class RequestValidator {
 	 */
 	public static void validateContentType(Request request) throws InvalidDataException {
 		String contentType = request.getHeader(Constants.CONTENT_TYPE);
-		if (!contentType.equalsIgnoreCase(Constants.JSON_CONTENT)) {
+		if (contentType == null || !contentType.equalsIgnoreCase(Constants.JSON_CONTENT)) {
 			throw new InvalidDataException(Constants.INVALID_CONTENT_TYPE_MESSAGE);
 		}
 	}

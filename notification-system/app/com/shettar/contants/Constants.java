@@ -47,5 +47,21 @@ public class Constants {
 	 * 
 	 */
 	public static final String MAIL_SMTP_PROPERTY = "mail.smtp.host";
+	/**
+	 * 
+	 */
+	public static final String MAIL_SEND_FAILURE = "Sending mail failed";
+	/**
+	 * 
+	 */
+	public static final String STATUS_CODE_MAIL_SEND_FAILED = "NS_1002";
+	/**
+	 * 
+	 */
+	public static final String MAIL_SENT_SUCCESSFULLY = "Mail sent successfully!";
+	/**
+	 * 
+	 */
+	public static final String STATUS_CODE_MAIL_SENT = "NS_1003";
 
 }

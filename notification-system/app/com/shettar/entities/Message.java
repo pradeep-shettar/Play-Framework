@@ -13,6 +13,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class Message {
 
 	/**
+	 * 
+	 */
+	public Message() {
+		// TODO Auto-generated constructor stub
+	}
+	/**
 	 * Field for holding type of message.
 	 */
 	@JsonProperty("messageType")

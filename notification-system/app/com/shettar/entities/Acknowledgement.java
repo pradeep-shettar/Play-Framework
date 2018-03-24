@@ -15,6 +15,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  */
 public class Acknowledgement {
 
+	
 	/**
 	 * All the messages statuses.
 	 */
